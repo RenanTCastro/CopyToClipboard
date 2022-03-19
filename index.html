@@ -1,0 +1,23 @@
+<html>
+    <header>
+        <link rel="stylesheet" type="text/css" href="./main.css">
+        <title>Copy to Clipboard</title>
+    </header>
+    <body>
+        <script type="text/javascript" src="./main.js"></script>
+        <h1 class="title">
+            Copy to clipboard
+        </h1>
+        <div class="textAreaDiv">
+            <textarea class="textAreaLeft textAreaBoth" id="copyThis"></textarea>
+            <textarea 
+                class="textAreaRight textAreaBoth" name="textarea"
+                placeholder="Paste your copied text here to test"></textarea>
+        </div>
+
+        <div class="buttonDiv">
+            <button class="button" onclick={copyToClipboard()}>Copy in clipboard</button>
+        </div>
+
+    </body>
+</html>
